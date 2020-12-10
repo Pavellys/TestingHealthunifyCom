@@ -5,8 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class TestingTransitionToTab {
-    String websiteHealthunifyCom = "https://healthunify.com/";
-    String websiteHealthunifyComBmicalculator = "https://healthunify.com/bmicalculator/";
+    String websiteHealthUnifyCom = "https://healthunify.com/";
+    String websiteHealthUnifyComBmicalculator = "https://healthunify.com/bmicalculator/";
 
     String expectedResultHome = "https://healthunify.com/";
     String expectedResultDiet = "https://healthunify.com/category/health-and-wellness/diet/";
@@ -21,7 +21,7 @@ public class TestingTransitionToTab {
         System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         // Open Website https://healthunify.com/
-        driver.get(websiteHealthunifyCom);
+        driver.get(websiteHealthUnifyCom);
         // Click to tab of Diet
         driver.findElement(By.xpath("//a[@href='https://healthunify.com/category/health-and-wellness/diet/']")).click();
         // Get actual result
@@ -36,7 +36,7 @@ public class TestingTransitionToTab {
         System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         // Open Website https://healthunify.com/bmicalculator/
-        driver.get(websiteHealthunifyComBmicalculator);
+        driver.get(websiteHealthUnifyComBmicalculator);
         // Click to tab of Home
         driver.findElement(By.xpath("//a[@href='https://healthunify.com/']")).click();
         // Get actual result
@@ -51,7 +51,7 @@ public class TestingTransitionToTab {
         System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         // Open Website https://healthunify.com/
-        driver.get(websiteHealthunifyCom);
+        driver.get(websiteHealthUnifyCom);
         // Click to tab of Fitness
         driver.findElement(By.xpath("//a[@href='https://healthunify.com/category/health-and-wellness/fitness/']")).click();
         // Get actual result
@@ -66,7 +66,7 @@ public class TestingTransitionToTab {
         System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         // Open Website https://healthunify.com/
-        driver.get(websiteHealthunifyCom);
+        driver.get(websiteHealthUnifyCom);
         // Click to tab of Juice
         driver.findElement(By.xpath("//a[@href='https://healthunify.com/category/health-and-wellness/juice/']")).click();
         // Get actual result
@@ -81,7 +81,7 @@ public class TestingTransitionToTab {
         System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         // Open Website https://healthunify.com/
-        driver.get(websiteHealthunifyCom);
+        driver.get(websiteHealthUnifyCom);
         // Click to tab of BMICalculator
         driver.findElement(By.xpath("//a[@href='https://healthunify.com/bmicalculator/']")).click();
         // Get actual result
@@ -96,7 +96,7 @@ public class TestingTransitionToTab {
         System.setProperty("webdriver.chrome.driver","src\\test\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         // Open Website https://healthunify.com/
-        driver.get(websiteHealthunifyCom);
+        driver.get(websiteHealthUnifyCom);
         // Click to tab of Quiz
         driver.findElement(By.xpath("//a[@href='https://healthunify.com/quiz/']")).click();
         // Get actual result
