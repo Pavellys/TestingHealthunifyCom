@@ -5,11 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 public class TestingTransitionToTab {
-    String healthUnifyURL = "https://healthunify.com";
-    String healthUnifyBmiURL = healthUnifyURL + "/bmicalculator/";
+    String healthUnifyURL = "https://healthunify.com/";
+    String healthUnifyBmiURL = healthUnifyURL + "bmicalculator/";
 
     String expectedHomeURL = healthUnifyURL;
-    String expectedDietURL = healthUnifyURL + "/category/health-and-wellness/diet/";
+    String expectedDietURL = healthUnifyURL + "category/health-and-wellness/diet/";
     String expectedFitnessURL = healthUnifyURL + "category/health-and-wellness/fitness/";
     String expectedJuiceURL = healthUnifyURL + "category/health-and-wellness/juice/";
     String expectedBMICalculatorURL = healthUnifyBmiURL;
